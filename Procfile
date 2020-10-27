@@ -1,1 +1,1 @@
-web: gunicorn -k flask_sockets.worker home:app
+web: gunicorn -k chess home:app
