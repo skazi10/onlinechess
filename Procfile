@@ -1,1 +1,1 @@
-web: gunicorn chess/home:app
+web: gunicorn chess/home:socketio.run(app)
