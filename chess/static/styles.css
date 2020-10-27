@@ -1,0 +1,17 @@
+#wrapper {
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#myBoard {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#status {
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 30%;
+    text-align: center;
+
+}
+
