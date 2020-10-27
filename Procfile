@@ -1,1 +1,1 @@
-web: gunicorn chess/home:socketio.run(app)
+web: gunicorn -k flask_sockets.worker home:app
